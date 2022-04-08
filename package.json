@@ -1,6 +1,6 @@
 {
   "name": "gascylinders",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Information (Brand, Size, Country) about gas cylinders",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

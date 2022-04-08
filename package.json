@@ -1,0 +1,34 @@
+{
+  "name": "gascylinders",
+  "version": "0.0.1",
+  "description": "Information (Brand, Size, Country) about gas cylinders",
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvinotieno/gascylinders.git"
+  },
+  "keywords": [
+    "LPG",
+    "Gas",
+    "Cylinder"
+  ],
+  "author": "Melvin Otieno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melvinotieno/gascylinders/issues"
+  },
+  "homepage": "https://github.com/melvinotieno/gascylinders#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}

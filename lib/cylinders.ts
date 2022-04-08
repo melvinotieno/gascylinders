@@ -6,7 +6,11 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.AFRI_GAS,
     name: 'Afri Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_45
+    ],
     countries: ['KE']
   },
   {
@@ -30,13 +34,18 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.CITY_GAS,
     name: 'City Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [CylinderSize.KG_6, CylinderSize.KG_13],
     countries: ['KE']
   },
   {
     key: CylinderKey.DEL_GAS,
     name: 'Del Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_45,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -48,7 +57,11 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.FUTURE_GAS,
     name: 'Future Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -64,6 +77,12 @@ export const cylinders: Cylinder[] = [
     countries: ['KE']
   },
   {
+    key: CylinderKey.GULF_PETROCHEM_GAS,
+    name: 'Gulf Petrochem Gas',
+    sizes: [CylinderSize.KG_6],
+    countries: ['KE']
+  },
+  {
     key: CylinderKey.HANDI_GAS,
     name: 'Handi Gas',
     sizes: [CylinderSize.KG_6],
@@ -72,13 +91,22 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.HASHI_GAS,
     name: 'Hashi Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_35,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.HASS_GAS,
     name: 'Hass Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -90,19 +118,28 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.HUNKAR_GAS,
     name: 'Hunkar Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.JAMII_GAS,
     name: 'Jamii Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [CylinderSize.KG_6, CylinderSize.KG_13],
     countries: ['KE']
   },
   {
     key: CylinderKey.K_GAS,
     name: 'K-Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_35,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -120,19 +157,33 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.LAKE_GAS,
     name: 'Lake Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_40,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.MEN_GAS,
     name: 'Men Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.MID_GAS,
     name: 'Mid Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_3,
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -144,7 +195,11 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.MPISHI_GAS,
     name: 'Mpishi Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_40
+    ],
     countries: ['KE']
   },
   {
@@ -162,7 +217,7 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.ORYX_GAS,
     name: 'Oryx Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [CylinderSize.KG_3, CylinderSize.KG_6],
     countries: ['KE']
   },
   {
@@ -174,13 +229,17 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.PET_GAS,
     name: 'Pet Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.PRO_GAS,
     name: 'Pro Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [CylinderSize.KG_6, CylinderSize.KG_13],
     countries: ['KE']
   },
   {
@@ -192,7 +251,7 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.SAFE_GAS,
     name: 'Safe Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [CylinderSize.KG_13],
     countries: ['KE']
   },
   {
@@ -204,13 +263,21 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.SEA_GAS,
     name: 'Sea Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_3,
+      CylinderSize.KG_6,
+      CylinderSize.KG_13
+    ],
     countries: ['KE']
   },
   {
     key: CylinderKey.SUPA_GAS,
     name: 'Supa Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
@@ -234,7 +301,13 @@ export const cylinders: Cylinder[] = [
   {
     key: CylinderKey.TOTAL_GAS,
     name: 'Total Gas',
-    sizes: [CylinderSize.KG_6],
+    sizes: [
+      CylinderSize.KG_3,
+      CylinderSize.KG_6,
+      CylinderSize.KG_13,
+      CylinderSize.KG_22_5,
+      CylinderSize.KG_50
+    ],
     countries: ['KE']
   },
   {
